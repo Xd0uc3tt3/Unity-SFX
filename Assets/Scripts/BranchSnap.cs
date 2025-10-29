@@ -8,7 +8,7 @@ public class BranchSnap : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            sfxSource.Play();
+            sfxSourceBranch.Play();
         }
     }
 }
